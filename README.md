@@ -1,5 +1,5 @@
 # Stock_orderbook_SSDA_assignment
-Group assignment for Simulation- Angad, Paras
+#Group assignment for Simulation- Angad, Paras
 
 import numpy as np
 import pandas as pd
