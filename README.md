@@ -56,8 +56,8 @@ class MarkovOrderbookComparator:
         return ask_prices, bid_prices, spread
 
     def plot_ask_bid_histogram(self, ask_prices, bid_prices):
-        bin_min = float(bid_prices.min())  # Extract scalar value
-        bin_max = float(ask_prices.max())  # Extract scalar value
+        bin_min = float(bid_prices.min())  
+        bin_max = float(ask_prices.max())  
         bins = np.linspace(bin_min, bin_max, 30)
 
         plt.figure(figsize=(12, 6))
